@@ -9,6 +9,7 @@
 // ------------------------------------------------------------------------------
 
 namespace Matze {
+    using Matze;
     using System;
     using System.Collections;
     using System.Collections.Generic;
@@ -23,15 +24,24 @@ namespace Matze {
     
     public partial class DebugSystemBase : uFrame.ECS.Systems.EcsSystem {
         
+        private IEcsComponentManagerOf<Orc> _OrcManager;
+        
         private IEcsComponentManagerOf<Sword> _SwordManager;
         
         private IEcsComponentManagerOf<Shield> _ShieldManager;
         
         private IEcsComponentManagerOf<Health> _HealthManager;
         
-        private IEcsComponentManagerOf<Orc> _OrcManager;
-        
         private DebugSystemGameReadyHandler DebugSystemGameReadyHandlerInstance = new DebugSystemGameReadyHandler();
+        
+        public IEcsComponentManagerOf<Orc> OrcManager {
+            get {
+                return _OrcManager;
+            }
+            set {
+                _OrcManager = value;
+            }
+        }
         
         public IEcsComponentManagerOf<Sword> SwordManager {
             get {
@@ -60,21 +70,12 @@ namespace Matze {
             }
         }
         
-        public IEcsComponentManagerOf<Orc> OrcManager {
-            get {
-                return _OrcManager;
-            }
-            set {
-                _OrcManager = value;
-            }
-        }
-        
         public override void Setup() {
             base.Setup();
+            OrcManager = ComponentSystem.RegisterGroup<OrcGroup,Orc>();
             SwordManager = ComponentSystem.RegisterComponent<Sword>(1);
             ShieldManager = ComponentSystem.RegisterComponent<Shield>(2);
             HealthManager = ComponentSystem.RegisterComponent<Health>(3);
-            OrcManager = ComponentSystem.RegisterGroup<OrcGroup,Orc>();
             this.OnEvent<uFrame.Kernel.GameReadyEvent>().Subscribe(_=>{ DebugSystemGameReadyFilter(_); }).DisposeWith(this);
         }
         

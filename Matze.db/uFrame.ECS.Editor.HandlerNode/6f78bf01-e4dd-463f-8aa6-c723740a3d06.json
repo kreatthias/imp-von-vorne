@@ -1,0 +1,12 @@
+{
+	"CodeHandler":false	, 
+	"Custom":false	, 
+	"MetaType":"uFrame.ECS.UnityUtilities.MouseDownDispatcher"	, 
+	"VariableCount":0	, 
+	"StartActionId":"85661589-9238-40f7-b8a3-8df48ab0a5d2"	, 
+	"VariableName":"HandlerNode7"	, 
+	"Name":"InputSystemOnMouseDown"	, 
+	"Order":0	, 
+	"GraphId":"e01e248b-9590-4f6f-b36e-6527dd7cf817"	, 
+	"Identifier":"6f78bf01-e4dd-463f-8aa6-c723740a3d06"	, 
+	"Expanded":false}

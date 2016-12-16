@@ -9,6 +9,7 @@
 // ------------------------------------------------------------------------------
 
 namespace Matze {
+    using Matze;
     using System;
     using System.Collections;
     using System.Collections.Generic;
@@ -23,13 +24,24 @@ namespace Matze {
     
     public partial class DamageSystemBase : uFrame.ECS.Systems.EcsSystem {
         
+        private IEcsComponentManagerOf<Orc> _OrcManager;
+        
         private IEcsComponentManagerOf<Sword> _SwordManager;
         
         private IEcsComponentManagerOf<Shield> _ShieldManager;
         
         private IEcsComponentManagerOf<Health> _HealthManager;
         
-        private IEcsComponentManagerOf<Orc> _OrcManager;
+        private DamageSystemOrcClickedHandler DamageSystemOrcClickedHandlerInstance = new DamageSystemOrcClickedHandler();
+        
+        public IEcsComponentManagerOf<Orc> OrcManager {
+            get {
+                return _OrcManager;
+            }
+            set {
+                _OrcManager = value;
+            }
+        }
         
         public IEcsComponentManagerOf<Sword> SwordManager {
             get {
@@ -58,21 +70,33 @@ namespace Matze {
             }
         }
         
-        public IEcsComponentManagerOf<Orc> OrcManager {
-            get {
-                return _OrcManager;
-            }
-            set {
-                _OrcManager = value;
-            }
-        }
-        
         public override void Setup() {
             base.Setup();
+            OrcManager = ComponentSystem.RegisterGroup<OrcGroup,Orc>();
             SwordManager = ComponentSystem.RegisterComponent<Sword>(1);
             ShieldManager = ComponentSystem.RegisterComponent<Shield>(2);
             HealthManager = ComponentSystem.RegisterComponent<Health>(3);
-            OrcManager = ComponentSystem.RegisterGroup<OrcGroup,Orc>();
+            this.OnEvent<Matze.OrcClicked>().Subscribe(_=>{ DamageSystemOrcClickedFilter(_); }).DisposeWith(this);
+        }
+        
+        protected virtual void DamageSystemOrcClickedHandler(Matze.OrcClicked data, Orc group) {
+            var handler = DamageSystemOrcClickedHandlerInstance;
+            handler.System = this;
+            handler.Event = data;
+            handler.Group = group;
+            StartCoroutine(handler.Execute());
+        }
+        
+        protected void DamageSystemOrcClickedFilter(Matze.OrcClicked data) {
+            var OrcItems = OrcManager.Components;
+            for (var OrcIndex = 0
+            ; OrcIndex < OrcItems.Count; OrcIndex++
+            ) {
+                if (!OrcItems[OrcIndex].Enabled) {
+                    continue;
+                }
+                this.DamageSystemOrcClickedHandler(data, OrcItems[OrcIndex]);
+            }
         }
     }
     

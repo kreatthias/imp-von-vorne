@@ -24,10 +24,36 @@ namespace Matze {
     [uFrame.Attributes.uFrameIdentifier("4d1b7880-2c89-4163-93ae-72e098823f71")]
     public partial class Health : uFrame.ECS.Components.EcsComponent {
         
+        [UnityEngine.SerializeField()]
+        private Int32 _health;
+        
+        private Subject<PropertyChangedEvent<Int32>> _healthObservable;
+        
+        private PropertyChangedEvent<Int32> _healthEvent;
+        
         public override int ComponentId {
             get {
                 return 3;
             }
+        }
+        
+        public IObservable<PropertyChangedEvent<Int32>> healthObservable {
+            get {
+                return _healthObservable ?? (_healthObservable = new Subject<PropertyChangedEvent<Int32>>());
+            }
+        }
+        
+        public Int32 health {
+            get {
+                return _health;
+            }
+            set {
+                Sethealth(value);
+            }
+        }
+        
+        public virtual void Sethealth(Int32 value) {
+            SetProperty(ref _health, value, ref _healthEvent, _healthObservable);
         }
     }
 }

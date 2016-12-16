@@ -24,6 +24,7 @@ namespace Matze {
         public override void Load() {
             EcsSystem system = null;
             system = this.AddSystem<DebugSystem>();
+            system = this.AddSystem<InputSystem>();
             system = this.AddSystem<DamageSystem>();
         }
     }
