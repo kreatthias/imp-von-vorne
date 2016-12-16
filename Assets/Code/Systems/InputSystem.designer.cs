@@ -24,15 +24,24 @@ namespace Matze {
     
     public partial class InputSystemBase : uFrame.ECS.Systems.EcsSystem {
         
+        private IEcsComponentManagerOf<Health> _HealthManager;
+        
         private IEcsComponentManagerOf<Orc> _OrcManager;
         
         private IEcsComponentManagerOf<Sword> _SwordManager;
         
         private IEcsComponentManagerOf<Shield> _ShieldManager;
         
-        private IEcsComponentManagerOf<Health> _HealthManager;
-        
         private InputSystemOnMouseDownHandler InputSystemOnMouseDownHandlerInstance = new InputSystemOnMouseDownHandler();
+        
+        public IEcsComponentManagerOf<Health> HealthManager {
+            get {
+                return _HealthManager;
+            }
+            set {
+                _HealthManager = value;
+            }
+        }
         
         public IEcsComponentManagerOf<Orc> OrcManager {
             get {
@@ -61,21 +70,12 @@ namespace Matze {
             }
         }
         
-        public IEcsComponentManagerOf<Health> HealthManager {
-            get {
-                return _HealthManager;
-            }
-            set {
-                _HealthManager = value;
-            }
-        }
-        
         public override void Setup() {
             base.Setup();
+            HealthManager = ComponentSystem.RegisterComponent<Health>(3);
             OrcManager = ComponentSystem.RegisterGroup<OrcGroup,Orc>();
             SwordManager = ComponentSystem.RegisterComponent<Sword>(1);
             ShieldManager = ComponentSystem.RegisterComponent<Shield>(2);
-            HealthManager = ComponentSystem.RegisterComponent<Health>(3);
             this.OnEvent<uFrame.ECS.UnityUtilities.MouseDownDispatcher>().Subscribe(_=>{ InputSystemOnMouseDownFilter(_); }).DisposeWith(this);
         }
         

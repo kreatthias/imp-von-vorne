@@ -21,23 +21,21 @@ namespace Matze {
     
     public class DamageSystemOrcClickedHandler {
         
-        public Orc Group;
+        public Health clickedOrc;
         
         private Matze.OrcClicked _Event;
         
         private uFrame.ECS.Systems.EcsSystem _System;
         
-        private object ActionNode14_message = default( System.Object );
+        private int ActionNode15_a = default( System.Int32 );
         
-        private int ActionNode16_a = default( System.Int32 );
+        private int ActionNode15_b = default( System.Int32 );
         
-        private int ActionNode16_b = default( System.Int32 );
+        private int IntNode16 = 10;
         
-        private int IntNode17 = 10;
+        private int ActionNode15_Result = default( System.Int32 );
         
-        private int ActionNode16_Result = default( System.Int32 );
-        
-        private object ActionNode18_message = default( System.Object );
+        private object ActionNode17_message = default( System.Object );
         
         public Matze.OrcClicked Event {
             get {
@@ -58,25 +56,20 @@ namespace Matze {
         }
         
         public virtual System.Collections.IEnumerator Execute() {
-            ActionNode14_message = Event.OrcId;
+            ActionNode15_a = clickedOrc.health;
+            ActionNode15_b = IntNode16;
             // ActionNode
-            while (this.DebugInfo("e7435b70-65ac-4a3c-a72d-ec3428824984","a367f592-055f-4cb0-94ea-7ef4c799f4e3", this) == 1) yield return null;
-            // Visit uFrame.ECS.Actions.DebugLibrary.LogMessage
-            uFrame.ECS.Actions.DebugLibrary.LogMessage(ActionNode14_message);
-            ActionNode16_a = Group.Health.health;
-            ActionNode16_b = IntNode17;
-            // ActionNode
-            while (this.DebugInfo("a367f592-055f-4cb0-94ea-7ef4c799f4e3","858c4df5-70bc-4d8a-b548-dc7a66023b01", this) == 1) yield return null;
+            while (this.DebugInfo("d2545072-59e1-4a15-8a17-e19c6c7464e0","a8936c94-0795-4283-9f2e-bb1238a1a9b0", this) == 1) yield return null;
             // Visit uFrame.ECS.Actions.IntLibrary.Subtract
-            ActionNode16_Result = uFrame.ECS.Actions.IntLibrary.Subtract(ActionNode16_a, ActionNode16_b);
+            ActionNode15_Result = uFrame.ECS.Actions.IntLibrary.Subtract(ActionNode15_a, ActionNode15_b);
             // SetVariableNode
-            while (this.DebugInfo("858c4df5-70bc-4d8a-b548-dc7a66023b01","9a5e0681-c283-471d-839e-526eac9dbbc2", this) == 1) yield return null;
-            Group.Health.health = (System.Int32)ActionNode16_Result;
-            ActionNode18_message = ActionNode16_Result;
+            while (this.DebugInfo("a8936c94-0795-4283-9f2e-bb1238a1a9b0","577597d9-24b6-4b17-a76d-0221ff6d69ae", this) == 1) yield return null;
+            clickedOrc.health = (System.Int32)ActionNode15_Result;
+            ActionNode17_message = ActionNode15_Result;
             // ActionNode
-            while (this.DebugInfo("9a5e0681-c283-471d-839e-526eac9dbbc2","0fa2094c-f598-416a-96b2-412e8c36b1e3", this) == 1) yield return null;
+            while (this.DebugInfo("577597d9-24b6-4b17-a76d-0221ff6d69ae","3190afbd-6bf4-46ac-a14c-a5820a0f93f5", this) == 1) yield return null;
             // Visit uFrame.ECS.Actions.DebugLibrary.LogMessage
-            uFrame.ECS.Actions.DebugLibrary.LogMessage(ActionNode18_message);
+            uFrame.ECS.Actions.DebugLibrary.LogMessage(ActionNode17_message);
             yield break;
         }
     }

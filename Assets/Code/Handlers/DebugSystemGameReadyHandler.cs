@@ -50,7 +50,7 @@ namespace Matze {
         public virtual System.Collections.IEnumerator Execute() {
             ActionNode1_message = StringNode2;
             // ActionNode
-            while (this.DebugInfo("","2765c9ed-2821-4b2a-ac06-83f6ece5e855", this) == 1) yield return null;
+            while (this.DebugInfo("3190afbd-6bf4-46ac-a14c-a5820a0f93f5","2765c9ed-2821-4b2a-ac06-83f6ece5e855", this) == 1) yield return null;
             // Visit uFrame.ECS.Actions.DebugLibrary.LogMessage
             uFrame.ECS.Actions.DebugLibrary.LogMessage(ActionNode1_message);
             yield break;

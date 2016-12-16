@@ -1,5 +1,49 @@
 ********************************************************************************
-*                     Friday, December 16, 2016 4:03:41 PM                     *
+*                     Friday, December 16, 2016 5:15:05 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp-firstpass.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-e627011802f55f9439cfe1917b4ea399
+Exit code: 0
+Elapsed time: 3.37 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (15 lines):
+0: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\UnityAssets\Done\Done_Scripts\Done_GameController.cs(38,28): warning CS0618: 'Application.loadedLevel' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+1: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\UnityAssets\Done\Done_Scripts\Done_GameController.cs(38,5): warning CS0618: 'Application.LoadLevel(int)' is obsolete: 'Use SceneManager.LoadScene'
+2: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\uFrameKernel.cs(195,17): warning CS0618: 'Application.LoadLevel(string)' is obsolete: 'Use SceneManager.LoadScene'
+3: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\Scene.cs(58,24): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+4: Assets\Plugins\ManagedPackages\uFrame\ECS\Runtime\Systems\EcsComponentService.cs(207,46): warning CS0168: The variable 'ex' is declared but never used
+5: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(91,22): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+6: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(135,34): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+7: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(238,18): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+8: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(253,17): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+9: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Groups\ShootingGunsGroup.cs(58,13): warning CS0162: Unreachable code detected
+10: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Components\Gunner.cs(28,23): warning CS0649: Field 'Gunner._Guns' is never assigned to, and will always have its default value null
+11: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Components\PlayGameButton.cs(28,30): warning CS0649: Field 'PlayGameButton._InstantiateItems' is never assigned to, and will always have its default value null
+12: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Components\SpawnMultipleAtInterval.cs(34,30): warning CS0649: Field 'SpawnMultipleAtInterval._Items' is never assigned to, and will always have its default value null
+13: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\Scene.cs(15,41): warning CS0649: Field 'Scene._KernelScene' is never assigned to, and will always have its default value null
+14: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Handlers\BeginIntervalSpawnHandler.cs(33,47): warning CS0414: The field 'BeginIntervalSpawn.ActionNode11_DisposeWith' is assigned but its value is never used
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-firstpass.dll
+Exit code: 0
+Elapsed time: 0.58 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Friday, December 16, 2016 5:15:11 PM                     *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.8.1.0
 Platform: Windows
@@ -11,9 +55,9 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-fda442f398d07514aa4716f2bc3cce74
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-221c8621193f871489c60551f9baa2c7
 Exit code: 0
-Elapsed time: 2.77 sec
+Elapsed time: 2.78 sec
 
 - Compiler output (0 lines):
 
@@ -28,80 +72,7 @@ Elapsed time: 0.35 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                     Friday, December 16, 2016 4:03:41 PM                     *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.8.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp-firstpass.dll
-Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-c50513461907b9942b03e7a405b5c1e8
-Exit code: 0
-Elapsed time: 3.39 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (15 lines):
-0: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\UnityAssets\Done\Done_Scripts\Done_GameController.cs(38,28): warning CS0618: 'Application.loadedLevel' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
-1: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\UnityAssets\Done\Done_Scripts\Done_GameController.cs(38,5): warning CS0618: 'Application.LoadLevel(int)' is obsolete: 'Use SceneManager.LoadScene'
-2: Assets\Plugins\ManagedPackages\uFrame\ECS\Runtime\Systems\EcsComponentService.cs(207,46): warning CS0168: The variable 'ex' is declared but never used
-3: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\uFrameKernel.cs(195,17): warning CS0618: 'Application.LoadLevel(string)' is obsolete: 'Use SceneManager.LoadScene'
-4: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Groups\ShootingGunsGroup.cs(58,13): warning CS0162: Unreachable code detected
-5: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(91,22): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
-6: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(135,34): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
-7: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(238,18): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
-8: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(253,17): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
-9: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\Scene.cs(58,24): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
-10: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Components\SpawnMultipleAtInterval.cs(34,30): warning CS0649: Field 'SpawnMultipleAtInterval._Items' is never assigned to, and will always have its default value null
-11: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\Scene.cs(15,41): warning CS0649: Field 'Scene._KernelScene' is never assigned to, and will always have its default value null
-12: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Components\PlayGameButton.cs(28,30): warning CS0649: Field 'PlayGameButton._InstantiateItems' is never assigned to, and will always have its default value null
-13: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Components\Gunner.cs(28,23): warning CS0649: Field 'Gunner._Guns' is never assigned to, and will always have its default value null
-14: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Handlers\BeginIntervalSpawnHandler.cs(33,47): warning CS0414: The field 'BeginIntervalSpawn.ActionNode11_DisposeWith' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-firstpass.dll
-Exit code: 0
-Elapsed time: 0.44 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                     Friday, December 16, 2016 4:03:48 PM                     *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.8.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-54d10a8defd0de24abc73f388b3c4b55
-Exit code: 0
-Elapsed time: 2.81 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.39 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                     Friday, December 16, 2016 4:03:48 PM                     *
+*                     Friday, December 16, 2016 5:15:11 PM                     *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.8.1.0
 Platform: Windows
@@ -113,9 +84,9 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-57b03e2c2abe2b446a7460d7fbc12ac8
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-ac161310fea827c41890e015b60df6f8
 Exit code: 0
-Elapsed time: 3.75 sec
+Elapsed time: 3.63 sec
 
 - Compiler output (0 lines):
 
@@ -130,98 +101,98 @@ Elapsed time: 3.75 sec
 7: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Templates\GroupItemTemplate.cs(13,20): warning CS0114: 'GroupItemTemplate.ComponentId' hides inherited member 'GroupItem.ComponentId'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
 8: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\KoinoniaSystem\Data\UFramePackageDescriptor.cs(8,18): warning CS0659: 'UFramePackageDescriptor' overrides Object.Equals(object o) but does not override Object.GetHashCode()
 9: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\NavigationSystem\ScrollGraphCommand.cs(10,23): warning CS0108: 'ScrollGraphCommand.Title' hides inherited member 'Command.Title'. Use the new keyword if hiding was intended.
-10: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\QuickAccess\QuickAccessWindowPlugin.cs(65,32): warning CS0108: 'QuickAccessWindowPlugin.Container' hides inherited member 'CorePlugin.Container'. Use the new keyword if hiding was intended.
-11: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\FilterNode.cs(33,29): warning CS0114: 'FilterNode.Filter' hides inherited member 'GraphNode.Filter'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+10: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\FilterNode.cs(33,29): warning CS0114: 'FilterNode.Filter' hides inherited member 'GraphNode.Filter'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+11: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\QuickAccess\QuickAccessWindowPlugin.cs(65,32): warning CS0108: 'QuickAccessWindowPlugin.Container' hides inherited member 'CorePlugin.Container'. Use the new keyword if hiding was intended.
 12: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\DebugSystem\uFrameBreakpointsWindow.cs(149,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
 13: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\DebugSystem\uFrameBreakpointsWindow.cs(52,21): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-14: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\DatabaseService.cs(514,38): warning CS0168: The variable 'ex' is declared but never used
-15: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Core\InvertApplication.cs(175,34): warning CS0168: The variable 'ex' is declared but never used
-16: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Core\InvertApplication.cs(199,34): warning CS0168: The variable 'ex' is declared but never used
-17: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Core\InvertApplication.cs(224,34): warning CS0168: The variable 'ex' is declared but never used
-18: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Compiling\CodeGen\CodeTemplates\impl\TemplateClassGenerator.cs(220,13): warning CS0162: Unreachable code detected
-19: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphSystem.cs(40,17): warning CS0184: The given expression is never of the provided ('CreateGraphMenuCommand') type
-20: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\uFrameNavigationHistoryWindow.cs(15,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-21: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\uFrameIssuesWindow.cs(15,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-22: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\uFrameInspectorWindow.cs(15,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-23: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\InspectorPlugin.cs(81,30): warning CS0168: The variable 'inspBounds' is declared but never used
-24: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Compiling\CodeGen\CodeTemplates\impl\GenerateMethod.cs(61,17): warning CS0219: The variable 'isOverried' is assigned but its value is never used
-25: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\SelectionFor.cs(38,17): warning CS0162: Unreachable code detected
-26: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Compiling\CodeGen\CodeTemplates\impl\GenerateMember.cs(40,42): warning CS0168: The variable 'ex' is declared but never used
-27: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\InspectorPlugin.cs(325,21): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-28: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\InspectorPlugin.cs(341,21): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-29: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameSettingsWindow.cs(20,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-30: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(48,13): warning CS0162: Unreachable code detected
-31: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(125,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-32: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(148,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-33: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\KoinoniaSystem\PackageManagerUISystem.cs(109,13): warning CS0162: Unreachable code detected
-34: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(317,21): warning CS0162: Unreachable code detected
-35: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\InvertGraph.cs(508,35): warning CS0612: 'InvertGraph.Nodes' is obsolete
-36: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\InvertGraph.cs(513,21): warning CS0612: 'InvertGraph.Nodes' is obsolete
-37: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\InvertGraph.cs(551,13): warning CS0162: Unreachable code detected
-38: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Schemas\UnityConnectorStyleSchema.cs(35,13): warning CS0162: Unreachable code detected
-39: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(953,13): warning CS0162: Unreachable code detected
-40: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\QuickAccess\QuickAccessWindowSearchPanel.cs(133,17): warning CS0219: The variable 'itemHeight' is assigned but its value is never used
-41: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Platform\api\CachedStyles.cs(492,21): warning CS0162: Unreachable code detected
-42: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\UndoSystem.cs(54,30): warning CS0168: The variable 'ex' is declared but never used
-43: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\UndoSystem.cs(144,30): warning CS0168: The variable 'ex' is declared but never used
-44: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\Compatability\Data\UnityGraphData.cs(170,17): warning CS0162: Unreachable code detected
-45: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(204,21): warning CS0162: Unreachable code detected
-46: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(207,21): warning CS0162: Unreachable code detected
-47: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(210,21): warning CS0162: Unreachable code detected
-48: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(222,21): warning CS0162: Unreachable code detected
-49: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(225,21): warning CS0162: Unreachable code detected
-50: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(237,21): warning CS0162: Unreachable code detected
-51: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityPlatform.cs(84,30): warning CS0168: The variable 'ex' is declared but never used
-52: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\WindowsPlugin.cs(51,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-53: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\WindowsPlugin.cs(62,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-54: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\ElementsDesigner.cs(17,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-55: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\WindowsPlugin.cs(103,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-56: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\ViewModels\DiagramViewModel.cs(500,30): warning CS0168: The variable 'ex' is declared but never used
-57: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Plugins\uFrameECS.cs(982,29): warning CS0162: Unreachable code detected
-58: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\SelectedCodePreview.cs(26,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-59: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\GraphTreeWindow.cs(19,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-60: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\MarketWindow.cs(23,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-61: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityDrawer.cs(431,17): warning CS0219: The variable 'labelWidth' is assigned but its value is never used
-62: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\MarketPlace.cs(275,30): warning CS0168: The variable 'ex' is declared but never used
-63: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Drawers\impl\GenericNodeDrawer.cs(48,18): warning CS0219: The variable 'hasErrors' is assigned but its value is never used
-64: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Plugins\ActionNodeSystem.cs(182,13): warning CS0162: Unreachable code detected
-65: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ItemSelectionWindow.cs(16,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-66: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ItemSelectionWindow.cs(106,17): warning CS0219: The variable 'isFirst' is assigned but its value is never used
-67: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ImportTypeListWindow.cs(18,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-68: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ElementItemTypesWindow.cs(21,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-69: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ElementDiagramSettingsWindow.cs(32,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-70: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ElementDiagramSettingsWindow.cs(128,29): warning CS0168: The variable 'ex' is declared but never used
-71: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\DocumentationWindow.cs(31,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-72: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\DocumentationWindow.cs(41,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-73: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Drawers\impl\DiagramDrawer.cs(477,21): warning CS0162: Unreachable code detected
-74: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Scaffolding\ScaffoldGraph.cs(13,13): warning CS0612: 'InvertGraph.AddNode(IDiagramNode)' is obsolete
-75: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\SetVariableNode.cs(100,17): warning CS0162: Unreachable code detected
-76: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\SequenceVisitor.cs(175,17): warning CS0219: The variable 'hasInferredOutput' is assigned but its value is never used
-77: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\ActionNode.cs(1214,13): warning CS0162: Unreachable code detected
-78: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\CollectionItemRemovedNode.cs(39,17): warning CS0162: Unreachable code detected
-79: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\CollectionItemRemovedNode.cs(49,17): warning CS0162: Unreachable code detected
-80: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\PropertyChangedNode.cs(106,17): warning CS0162: Unreachable code detected
-81: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\HandlerNode.cs(90,17): warning CS0162: Unreachable code detected
-82: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\LoopCollectionNode.cs(528,25): warning CS0219: The variable 'x' is assigned but its value is never used
+14: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Compiling\CodeGen\CodeTemplates\impl\TemplateClassGenerator.cs(220,13): warning CS0162: Unreachable code detected
+15: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Compiling\CodeGen\CodeTemplates\impl\GenerateMethod.cs(61,17): warning CS0219: The variable 'isOverried' is assigned but its value is never used
+16: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\DatabaseService.cs(514,38): warning CS0168: The variable 'ex' is declared but never used
+17: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\ActionNode.cs(1214,13): warning CS0162: Unreachable code detected
+18: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\CollectionItemRemovedNode.cs(39,17): warning CS0162: Unreachable code detected
+19: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\CollectionItemRemovedNode.cs(49,17): warning CS0162: Unreachable code detected
+20: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameSettingsWindow.cs(20,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+21: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Compiling\CodeGen\CodeTemplates\impl\GenerateMember.cs(40,42): warning CS0168: The variable 'ex' is declared but never used
+22: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\HandlerNode.cs(90,17): warning CS0162: Unreachable code detected
+23: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(48,13): warning CS0162: Unreachable code detected
+24: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Core\InvertApplication.cs(175,34): warning CS0168: The variable 'ex' is declared but never used
+25: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(125,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+26: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Core\InvertApplication.cs(199,34): warning CS0168: The variable 'ex' is declared but never used
+27: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(148,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+28: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Core\InvertApplication.cs(224,34): warning CS0168: The variable 'ex' is declared but never used
+29: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\LoopCollectionNode.cs(528,25): warning CS0219: The variable 'x' is assigned but its value is never used
+30: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphSystem.cs(40,17): warning CS0184: The given expression is never of the provided ('CreateGraphMenuCommand') type
+31: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(317,21): warning CS0162: Unreachable code detected
+32: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(953,13): warning CS0162: Unreachable code detected
+33: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\uFrameNavigationHistoryWindow.cs(15,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+34: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\PropertyChangedNode.cs(106,17): warning CS0162: Unreachable code detected
+35: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\uFrameIssuesWindow.cs(15,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+36: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\uFrameInspectorWindow.cs(15,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+37: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\SelectionFor.cs(38,17): warning CS0162: Unreachable code detected
+38: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\InspectorPlugin.cs(81,30): warning CS0168: The variable 'inspBounds' is declared but never used
+39: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Drawers\impl\GenericNodeDrawer.cs(48,18): warning CS0219: The variable 'hasErrors' is assigned but its value is never used
+40: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\WindowsPlugin.cs(51,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+41: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\WindowsPlugin.cs(62,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+42: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\InvertGraph.cs(508,35): warning CS0612: 'InvertGraph.Nodes' is obsolete
+43: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\InvertGraph.cs(513,21): warning CS0612: 'InvertGraph.Nodes' is obsolete
+44: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\InvertGraph.cs(551,13): warning CS0162: Unreachable code detected
+45: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\WindowsPlugin.cs(103,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+46: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\KoinoniaSystem\PackageManagerUISystem.cs(109,13): warning CS0162: Unreachable code detected
+47: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\InspectorPlugin.cs(325,21): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+48: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\InspectorPlugin.cs(341,21): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+49: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\SelectedCodePreview.cs(26,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+50: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\MarketWindow.cs(23,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+51: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\ViewModels\DiagramViewModel.cs(500,30): warning CS0168: The variable 'ex' is declared but never used
+52: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\MarketPlace.cs(275,30): warning CS0168: The variable 'ex' is declared but never used
+53: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ItemSelectionWindow.cs(16,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+54: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ItemSelectionWindow.cs(106,17): warning CS0219: The variable 'isFirst' is assigned but its value is never used
+55: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ImportTypeListWindow.cs(18,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+56: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Drawers\impl\DiagramDrawer.cs(477,21): warning CS0162: Unreachable code detected
+57: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ElementItemTypesWindow.cs(21,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+58: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ElementDiagramSettingsWindow.cs(32,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+59: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ElementDiagramSettingsWindow.cs(128,29): warning CS0168: The variable 'ex' is declared but never used
+60: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\DocumentationWindow.cs(31,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+61: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\DocumentationWindow.cs(41,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+62: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\SequenceVisitor.cs(175,17): warning CS0219: The variable 'hasInferredOutput' is assigned but its value is never used
+63: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Scaffolding\ScaffoldGraph.cs(13,13): warning CS0612: 'InvertGraph.AddNode(IDiagramNode)' is obsolete
+64: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\SetVariableNode.cs(100,17): warning CS0162: Unreachable code detected
+65: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\QuickAccess\QuickAccessWindowSearchPanel.cs(133,17): warning CS0219: The variable 'itemHeight' is assigned but its value is never used
+66: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(204,21): warning CS0162: Unreachable code detected
+67: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(207,21): warning CS0162: Unreachable code detected
+68: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(210,21): warning CS0162: Unreachable code detected
+69: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(222,21): warning CS0162: Unreachable code detected
+70: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(225,21): warning CS0162: Unreachable code detected
+71: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(237,21): warning CS0162: Unreachable code detected
+72: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Platform\api\CachedStyles.cs(492,21): warning CS0162: Unreachable code detected
+73: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Schemas\UnityConnectorStyleSchema.cs(35,13): warning CS0162: Unreachable code detected
+74: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Plugins\ActionNodeSystem.cs(182,13): warning CS0162: Unreachable code detected
+75: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\UndoSystem.cs(54,30): warning CS0168: The variable 'ex' is declared but never used
+76: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityPlatform.cs(84,30): warning CS0168: The variable 'ex' is declared but never used
+77: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\Compatability\Data\UnityGraphData.cs(170,17): warning CS0162: Unreachable code detected
+78: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\UndoSystem.cs(144,30): warning CS0168: The variable 'ex' is declared but never used
+79: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\ElementsDesigner.cs(17,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+80: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\GraphTreeWindow.cs(19,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+81: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Plugins\uFrameECS.cs(982,29): warning CS0162: Unreachable code detected
+82: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityDrawer.cs(431,17): warning CS0219: The variable 'labelWidth' is assigned but its value is never used
 83: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(1382,24): warning CS0649: Field 'uFrameHelp.disposer2' is never assigned to, and will always have its default value null
 84: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\SmartWindow.cs(71,37): warning CS0067: The event 'SmartWindow.Bound' is never used
 85: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(1380,24): warning CS0649: Field 'uFrameHelp.disposer' is never assigned to, and will always have its default value null
-86: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Database\Data\JsonFileRecordManager.cs(18,22): warning CS0414: The field 'JsonFileRecordManager._isCommiting' is assigned but its value is never used
-87: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Database\Data\FastJsonFileRecordManager.cs(18,22): warning CS0414: The field 'FastJsonFileRecordManager._isCommiting' is assigned but its value is never used
-88: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Obsolete\ElementDiagramSettings.cs(113,22): warning CS0414: The field 'ElementDiagramSettings._generateDefaultBindings' is assigned but its value is never used
+86: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Database\Data\FastJsonFileRecordManager.cs(18,22): warning CS0414: The field 'FastJsonFileRecordManager._isCommiting' is assigned but its value is never used
+87: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Obsolete\ElementDiagramSettings.cs(113,22): warning CS0414: The field 'ElementDiagramSettings._generateDefaultBindings' is assigned but its value is never used
+88: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Obsolete\ElementDiagramSettings.cs(109,35): warning CS0414: The field 'ElementDiagramSettings._codePathStrategy' is assigned but its value is never used
 89: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\TaskSystem.cs(9,21): warning CS0414: The field 'TaskSystem.fpsCount' is assigned but its value is never used
-90: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Obsolete\ElementDiagramSettings.cs(109,35): warning CS0414: The field 'ElementDiagramSettings._codePathStrategy' is assigned but its value is never used
+90: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Database\Data\JsonFileRecordManager.cs(18,22): warning CS0414: The field 'JsonFileRecordManager._isCommiting' is assigned but its value is never used
 
 - PDB to MDB conversion --------------------------------------
 
 Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
 Arguments: Temp\Assembly-CSharp-Editor-firstpass.dll
 Exit code: 0
-Elapsed time: 0.53 sec
+Elapsed time: 0.57 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                     Friday, December 16, 2016 4:03:53 PM                     *
+*                     Friday, December 16, 2016 5:15:16 PM                     *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.8.1.0
 Platform: Windows
@@ -233,67 +204,9 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-bd746ced22fd081408024c079eff00b3
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-8bbc6d6c2ba0f22419f4b6ee1bdf2ef6
 Exit code: 0
-Elapsed time: 2.67 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.45 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                     Friday, December 16, 2016 4:03:54 PM                     *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.8.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-ed1b3b2d6b7f7954d8b78071ac638ab9
-Exit code: 0
-Elapsed time: 2.61 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.42 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                     Friday, December 16, 2016 4:03:57 PM                     *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.8.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-e5a9cdacb7eebf446ac1a1962ad99645
-Exit code: 0
-Elapsed time: 2.37 sec
+Elapsed time: 2.38 sec
 
 - Compiler output (0 lines):
 
@@ -308,7 +221,7 @@ Elapsed time: 0.35 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                     Friday, December 16, 2016 4:33:56 PM                     *
+*                     Friday, December 16, 2016 5:20:17 PM                     *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.8.1.0
 Platform: Windows
@@ -320,28 +233,21 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-91dbf40eadce27e4994d225e1de9c7da
-Exit code: 0
-Elapsed time: 2.12 sec
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-a7d72aaa2636dc74db91bca123eecada
+Exit code: 1
+Elapsed time: 1.91 sec
 
 - Compiler output (0 lines):
 
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.34 sec
-
-- pdb2mdb.exe output (0 lines):
+- Compiler errors (2 lines):
+0: Assets\Code\Handlers\DamageSystemOrcClickedHandler.cs(68,35): error CS1061: 'OrcClicked' does not contain a definition for 'OrcId' and no extension method 'OrcId' accepting a first argument of type 'OrcClicked' could be found (are you missing a using directive or an assembly reference?)
+1: Assets\Code\Handlers\InputSystemOnMouseDownHandler.cs(63,38): error CS1061: 'OrcClicked' does not contain a definition for 'OrcId' and no extension method 'OrcId' accepting a first argument of type 'OrcClicked' could be found (are you missing a using directive or an assembly reference?)
 ********************************************************************************
-*                     Friday, December 16, 2016 4:33:59 PM                     *
+*                     Friday, December 16, 2016 5:21:22 PM                     *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.8.1.0
 Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
+Target assembly: Assembly-CSharp.dll
 Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
 Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
 Compiler: Microsoft C# 6.0
@@ -349,24 +255,16 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-3a395cad56e3d174f9cba5ac5d5e07bb
-Exit code: 0
-Elapsed time: 2.16 sec
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-dae00852114c3b64db62eaa60615d217
+Exit code: 1
+Elapsed time: 2.31 sec
 
 - Compiler output (0 lines):
 
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.34 sec
-
-- pdb2mdb.exe output (0 lines):
+- Compiler errors (1 line):
+0: Assets\Code\Handlers\InputSystemOnMouseDownHandler.cs(63,38): error CS1061: 'OrcClicked' does not contain a definition for 'OrcId' and no extension method 'OrcId' accepting a first argument of type 'OrcClicked' could be found (are you missing a using directive or an assembly reference?)
 ********************************************************************************
-*                     Friday, December 16, 2016 4:36:13 PM                     *
+*                     Friday, December 16, 2016 5:21:22 PM                     *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.8.1.0
 Platform: Windows
@@ -378,27 +276,27 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-ece8de5e37dc9024e9117ec643fbf92a
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-9b6cdba438c153c4f8f6e29d821f35e3
 Exit code: 0
-Elapsed time: 3.04 sec
+Elapsed time: 3.76 sec
 
 - Compiler output (0 lines):
 
 - Compiler errors (15 lines):
 0: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\UnityAssets\Done\Done_Scripts\Done_GameController.cs(38,28): warning CS0618: 'Application.loadedLevel' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
 1: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\UnityAssets\Done\Done_Scripts\Done_GameController.cs(38,5): warning CS0618: 'Application.LoadLevel(int)' is obsolete: 'Use SceneManager.LoadScene'
-2: Assets\Plugins\ManagedPackages\uFrame\ECS\Runtime\Systems\EcsComponentService.cs(207,46): warning CS0168: The variable 'ex' is declared but never used
-3: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Groups\ShootingGunsGroup.cs(58,13): warning CS0162: Unreachable code detected
-4: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\uFrameKernel.cs(195,17): warning CS0618: 'Application.LoadLevel(string)' is obsolete: 'Use SceneManager.LoadScene'
-5: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\Scene.cs(58,24): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
-6: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(91,22): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
-7: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(135,34): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
-8: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(238,18): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
-9: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(253,17): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
-10: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Components\SpawnMultipleAtInterval.cs(34,30): warning CS0649: Field 'SpawnMultipleAtInterval._Items' is never assigned to, and will always have its default value null
+2: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\uFrameKernel.cs(195,17): warning CS0618: 'Application.LoadLevel(string)' is obsolete: 'Use SceneManager.LoadScene'
+3: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\Scene.cs(58,24): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+4: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(91,22): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+5: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(135,34): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+6: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(238,18): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+7: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(253,17): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+8: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Groups\ShootingGunsGroup.cs(58,13): warning CS0162: Unreachable code detected
+9: Assets\Plugins\ManagedPackages\uFrame\ECS\Runtime\Systems\EcsComponentService.cs(207,46): warning CS0168: The variable 'ex' is declared but never used
+10: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Components\PlayGameButton.cs(28,30): warning CS0649: Field 'PlayGameButton._InstantiateItems' is never assigned to, and will always have its default value null
 11: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\Scene.cs(15,41): warning CS0649: Field 'Scene._KernelScene' is never assigned to, and will always have its default value null
-12: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Components\PlayGameButton.cs(28,30): warning CS0649: Field 'PlayGameButton._InstantiateItems' is never assigned to, and will always have its default value null
-13: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Components\Gunner.cs(28,23): warning CS0649: Field 'Gunner._Guns' is never assigned to, and will always have its default value null
+12: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Components\Gunner.cs(28,23): warning CS0649: Field 'Gunner._Guns' is never assigned to, and will always have its default value null
+13: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Components\SpawnMultipleAtInterval.cs(34,30): warning CS0649: Field 'SpawnMultipleAtInterval._Items' is never assigned to, and will always have its default value null
 14: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Handlers\BeginIntervalSpawnHandler.cs(33,47): warning CS0414: The field 'BeginIntervalSpawn.ActionNode11_DisposeWith' is assigned but its value is never used
 
 - PDB to MDB conversion --------------------------------------
@@ -406,11 +304,11 @@ Elapsed time: 3.04 sec
 Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
 Arguments: Temp\Assembly-CSharp-firstpass.dll
 Exit code: 0
-Elapsed time: 0.51 sec
+Elapsed time: 0.45 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                     Friday, December 16, 2016 4:36:19 PM                     *
+*                     Friday, December 16, 2016 5:21:29 PM                     *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.8.1.0
 Platform: Windows
@@ -422,24 +320,16 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-ed56f31a39a553f4b9fe306f452c1419
-Exit code: 0
-Elapsed time: 3.00 sec
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-4aff3d0f0d71e254b9ffdfa12898f0eb
+Exit code: 1
+Elapsed time: 2.27 sec
 
 - Compiler output (0 lines):
 
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.39 sec
-
-- pdb2mdb.exe output (0 lines):
+- Compiler errors (1 line):
+0: Assets\Code\Handlers\InputSystemOnMouseDownHandler.cs(63,38): error CS1061: 'OrcClicked' does not contain a definition for 'OrcId' and no extension method 'OrcId' accepting a first argument of type 'OrcClicked' could be found (are you missing a using directive or an assembly reference?)
 ********************************************************************************
-*                     Friday, December 16, 2016 4:36:19 PM                     *
+*                     Friday, December 16, 2016 5:21:29 PM                     *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.8.1.0
 Platform: Windows
@@ -451,144 +341,115 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-8b6b2de06d3c17640a0bc46c7afa9eb2
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-42efbd30bfc92b1438043d4eb849e4d9
 Exit code: 0
-Elapsed time: 3.88 sec
+Elapsed time: 4.15 sec
 
 - Compiler output (0 lines):
 
 - Compiler errors (91 lines):
-0: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\NavigationSystem\ScrollGraphCommand.cs(10,23): warning CS0108: 'ScrollGraphCommand.Title' hides inherited member 'Command.Title'. Use the new keyword if hiding was intended.
-1: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\KoinoniaSystem\Data\UFramePackageDescriptor.cs(8,18): warning CS0659: 'UFramePackageDescriptor' overrides Object.Equals(object o) but does not override Object.GetHashCode()
+0: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\KoinoniaSystem\Data\UFramePackageDescriptor.cs(8,18): warning CS0659: 'UFramePackageDescriptor' overrides Object.Equals(object o) but does not override Object.GetHashCode()
+1: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\NavigationSystem\ScrollGraphCommand.cs(10,23): warning CS0108: 'ScrollGraphCommand.Title' hides inherited member 'Command.Title'. Use the new keyword if hiding was intended.
 2: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\QuickAccess\QuickAccessWindowPlugin.cs(65,32): warning CS0108: 'QuickAccessWindowPlugin.Container' hides inherited member 'CorePlugin.Container'. Use the new keyword if hiding was intended.
-3: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes.designer.cs(36,81): warning CS0108: 'CustomActionNodeBase.Outputs' hides inherited member 'GraphNode.Outputs'. Use the new keyword if hiding was intended.
-4: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes.designer.cs(43,80): warning CS0108: 'CustomActionNodeBase.Inputs' hides inherited member 'GraphNode.Inputs'. Use the new keyword if hiding was intended.
-5: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\ViewModels\DiagramViewModel.cs(882,21): warning CS0108: 'DiagramViewModel.PropertyChanged(IDataRecord, string, object, object)' hides inherited member 'ViewModel.PropertyChanged'. Use the new keyword if hiding was intended.
-6: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\ActionNode.cs(480,21): warning CS0114: 'ActionNode.WriteActionOutputs(TemplateContext)' hides inherited member 'SequenceItemNode.WriteActionOutputs(TemplateContext)'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
-7: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\ViewModels\GraphItemViewModel.cs(116,29): warning CS0108: 'GraphItemViewModel.PropertyChanged(IDataRecord, string, object, object)' hides inherited member 'ViewModel.PropertyChanged'. Use the new keyword if hiding was intended.
-8: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\FilterNode.cs(33,29): warning CS0114: 'FilterNode.Filter' hides inherited member 'GraphNode.Filter'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
-9: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Templates\GroupItemTemplate.cs(13,20): warning CS0114: 'GroupItemTemplate.ComponentId' hides inherited member 'GroupItem.ComponentId'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
-10: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\CustomActionNode.cs(88,21): warning CS0114: 'CustomActionNode.IsAsync' hides inherited member 'SequenceItemNode.IsAsync'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+3: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\ViewModels\DiagramViewModel.cs(882,21): warning CS0108: 'DiagramViewModel.PropertyChanged(IDataRecord, string, object, object)' hides inherited member 'ViewModel.PropertyChanged'. Use the new keyword if hiding was intended.
+4: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\ViewModels\GraphItemViewModel.cs(116,29): warning CS0108: 'GraphItemViewModel.PropertyChanged(IDataRecord, string, object, object)' hides inherited member 'ViewModel.PropertyChanged'. Use the new keyword if hiding was intended.
+5: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes.designer.cs(36,81): warning CS0108: 'CustomActionNodeBase.Outputs' hides inherited member 'GraphNode.Outputs'. Use the new keyword if hiding was intended.
+6: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes.designer.cs(43,80): warning CS0108: 'CustomActionNodeBase.Inputs' hides inherited member 'GraphNode.Inputs'. Use the new keyword if hiding was intended.
+7: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\FilterNode.cs(33,29): warning CS0114: 'FilterNode.Filter' hides inherited member 'GraphNode.Filter'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+8: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\ActionNode.cs(480,21): warning CS0114: 'ActionNode.WriteActionOutputs(TemplateContext)' hides inherited member 'SequenceItemNode.WriteActionOutputs(TemplateContext)'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+9: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\CustomActionNode.cs(88,21): warning CS0114: 'CustomActionNode.IsAsync' hides inherited member 'SequenceItemNode.IsAsync'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+10: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Templates\GroupItemTemplate.cs(13,20): warning CS0114: 'GroupItemTemplate.ComponentId' hides inherited member 'GroupItem.ComponentId'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
 11: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\HandlerNode.cs(44,21): warning CS0114: 'HandlerNode.IsAsync' hides inherited member 'SequenceItemNode.IsAsync'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
 12: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\DebugSystem\uFrameBreakpointsWindow.cs(149,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
 13: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\DebugSystem\uFrameBreakpointsWindow.cs(52,21): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-14: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Compiling\CodeGen\CodeTemplates\impl\GenerateMethod.cs(61,17): warning CS0219: The variable 'isOverried' is assigned but its value is never used
-15: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Compiling\CodeGen\CodeTemplates\impl\GenerateMember.cs(40,42): warning CS0168: The variable 'ex' is declared but never used
-16: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Compiling\CodeGen\CodeTemplates\impl\TemplateClassGenerator.cs(220,13): warning CS0162: Unreachable code detected
-17: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\DatabaseService.cs(514,38): warning CS0168: The variable 'ex' is declared but never used
-18: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Core\InvertApplication.cs(175,34): warning CS0168: The variable 'ex' is declared but never used
-19: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Core\InvertApplication.cs(199,34): warning CS0168: The variable 'ex' is declared but never used
-20: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Core\InvertApplication.cs(224,34): warning CS0168: The variable 'ex' is declared but never used
-21: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\ActionNode.cs(1214,13): warning CS0162: Unreachable code detected
-22: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\CollectionItemRemovedNode.cs(39,17): warning CS0162: Unreachable code detected
-23: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\CollectionItemRemovedNode.cs(49,17): warning CS0162: Unreachable code detected
-24: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Plugins\uFrameECS.cs(982,29): warning CS0162: Unreachable code detected
-25: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Plugins\ActionNodeSystem.cs(182,13): warning CS0162: Unreachable code detected
-26: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\HandlerNode.cs(90,17): warning CS0162: Unreachable code detected
-27: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\LoopCollectionNode.cs(528,25): warning CS0219: The variable 'x' is assigned but its value is never used
-28: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\SetVariableNode.cs(100,17): warning CS0162: Unreachable code detected
-29: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\PropertyChangedNode.cs(106,17): warning CS0162: Unreachable code detected
-30: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\SequenceVisitor.cs(175,17): warning CS0219: The variable 'hasInferredOutput' is assigned but its value is never used
-31: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphSystem.cs(40,17): warning CS0184: The given expression is never of the provided ('CreateGraphMenuCommand') type
-32: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameSettingsWindow.cs(20,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-33: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(48,13): warning CS0162: Unreachable code detected
-34: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(125,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-35: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(148,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-36: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(317,21): warning CS0162: Unreachable code detected
-37: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\uFrameNavigationHistoryWindow.cs(15,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-38: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\SelectionFor.cs(38,17): warning CS0162: Unreachable code detected
-39: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\uFrameIssuesWindow.cs(15,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-40: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\uFrameInspectorWindow.cs(15,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-41: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\InspectorPlugin.cs(81,30): warning CS0168: The variable 'inspBounds' is declared but never used
-42: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(953,13): warning CS0162: Unreachable code detected
-43: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\InvertGraph.cs(508,35): warning CS0612: 'InvertGraph.Nodes' is obsolete
-44: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\InvertGraph.cs(513,21): warning CS0612: 'InvertGraph.Nodes' is obsolete
-45: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\InspectorPlugin.cs(325,21): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-46: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\InspectorPlugin.cs(341,21): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-47: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\InvertGraph.cs(551,13): warning CS0162: Unreachable code detected
-48: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\KoinoniaSystem\PackageManagerUISystem.cs(109,13): warning CS0162: Unreachable code detected
-49: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\WindowsPlugin.cs(51,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-50: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\WindowsPlugin.cs(62,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-51: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\WindowsPlugin.cs(103,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-52: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\QuickAccess\QuickAccessWindowSearchPanel.cs(133,17): warning CS0219: The variable 'itemHeight' is assigned but its value is never used
-53: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Schemas\UnityConnectorStyleSchema.cs(35,13): warning CS0162: Unreachable code detected
-54: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\SelectedCodePreview.cs(26,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-55: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Platform\api\CachedStyles.cs(492,21): warning CS0162: Unreachable code detected
-56: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\MarketWindow.cs(23,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-57: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\MarketPlace.cs(275,30): warning CS0168: The variable 'ex' is declared but never used
-58: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Drawers\impl\GenericNodeDrawer.cs(48,18): warning CS0219: The variable 'hasErrors' is assigned but its value is never used
-59: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Drawers\impl\DiagramDrawer.cs(477,21): warning CS0162: Unreachable code detected
-60: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ItemSelectionWindow.cs(16,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-61: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\ViewModels\DiagramViewModel.cs(500,30): warning CS0168: The variable 'ex' is declared but never used
-62: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\UndoSystem.cs(54,30): warning CS0168: The variable 'ex' is declared but never used
-63: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\UndoSystem.cs(144,30): warning CS0168: The variable 'ex' is declared but never used
-64: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ItemSelectionWindow.cs(106,17): warning CS0219: The variable 'isFirst' is assigned but its value is never used
+14: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\DatabaseService.cs(514,38): warning CS0168: The variable 'ex' is declared but never used
+15: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Core\InvertApplication.cs(175,34): warning CS0168: The variable 'ex' is declared but never used
+16: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Core\InvertApplication.cs(199,34): warning CS0168: The variable 'ex' is declared but never used
+17: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Core\InvertApplication.cs(224,34): warning CS0168: The variable 'ex' is declared but never used
+18: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphSystem.cs(40,17): warning CS0184: The given expression is never of the provided ('CreateGraphMenuCommand') type
+19: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameSettingsWindow.cs(20,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+20: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Compiling\CodeGen\CodeTemplates\impl\TemplateClassGenerator.cs(220,13): warning CS0162: Unreachable code detected
+21: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\uFrameNavigationHistoryWindow.cs(15,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+22: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\uFrameIssuesWindow.cs(15,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+23: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\uFrameInspectorWindow.cs(15,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+24: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(48,13): warning CS0162: Unreachable code detected
+25: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\InspectorPlugin.cs(81,30): warning CS0168: The variable 'inspBounds' is declared but never used
+26: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\SelectionFor.cs(38,17): warning CS0162: Unreachable code detected
+27: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(125,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+28: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Compiling\CodeGen\CodeTemplates\impl\GenerateMethod.cs(61,17): warning CS0219: The variable 'isOverried' is assigned but its value is never used
+29: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(148,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+30: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Compiling\CodeGen\CodeTemplates\impl\GenerateMember.cs(40,42): warning CS0168: The variable 'ex' is declared but never used
+31: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\InspectorPlugin.cs(325,21): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+32: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\InspectorPlugin.cs(341,21): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+33: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(317,21): warning CS0162: Unreachable code detected
+34: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\KoinoniaSystem\PackageManagerUISystem.cs(109,13): warning CS0162: Unreachable code detected
+35: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\InvertGraph.cs(508,35): warning CS0612: 'InvertGraph.Nodes' is obsolete
+36: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\InvertGraph.cs(513,21): warning CS0612: 'InvertGraph.Nodes' is obsolete
+37: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\QuickAccess\QuickAccessWindowSearchPanel.cs(133,17): warning CS0219: The variable 'itemHeight' is assigned but its value is never used
+38: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\InvertGraph.cs(551,13): warning CS0162: Unreachable code detected
+39: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(953,13): warning CS0162: Unreachable code detected
+40: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Platform\api\CachedStyles.cs(492,21): warning CS0162: Unreachable code detected
+41: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Schemas\UnityConnectorStyleSchema.cs(35,13): warning CS0162: Unreachable code detected
+42: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\ViewModels\DiagramViewModel.cs(500,30): warning CS0168: The variable 'ex' is declared but never used
+43: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\UndoSystem.cs(54,30): warning CS0168: The variable 'ex' is declared but never used
+44: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\WindowsPlugin.cs(51,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+45: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\WindowsPlugin.cs(62,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+46: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\UndoSystem.cs(144,30): warning CS0168: The variable 'ex' is declared but never used
+47: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\WindowsPlugin.cs(103,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+48: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(204,21): warning CS0162: Unreachable code detected
+49: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(207,21): warning CS0162: Unreachable code detected
+50: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(210,21): warning CS0162: Unreachable code detected
+51: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(222,21): warning CS0162: Unreachable code detected
+52: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(225,21): warning CS0162: Unreachable code detected
+53: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(237,21): warning CS0162: Unreachable code detected
+54: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\DocumentationWindow.cs(31,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+55: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\DocumentationWindow.cs(41,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+56: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\SelectedCodePreview.cs(26,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+57: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ElementDiagramSettingsWindow.cs(32,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+58: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityPlatform.cs(84,30): warning CS0168: The variable 'ex' is declared but never used
+59: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ElementItemTypesWindow.cs(21,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+60: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ElementDiagramSettingsWindow.cs(128,29): warning CS0168: The variable 'ex' is declared but never used
+61: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\MarketWindow.cs(23,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+62: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ImportTypeListWindow.cs(18,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+63: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ItemSelectionWindow.cs(16,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+64: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\MarketPlace.cs(275,30): warning CS0168: The variable 'ex' is declared but never used
 65: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\Compatability\Data\UnityGraphData.cs(170,17): warning CS0162: Unreachable code detected
-66: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ImportTypeListWindow.cs(18,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+66: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ItemSelectionWindow.cs(106,17): warning CS0219: The variable 'isFirst' is assigned but its value is never used
 67: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\ElementsDesigner.cs(17,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-68: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(204,21): warning CS0162: Unreachable code detected
-69: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(207,21): warning CS0162: Unreachable code detected
-70: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(210,21): warning CS0162: Unreachable code detected
-71: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(222,21): warning CS0162: Unreachable code detected
-72: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(225,21): warning CS0162: Unreachable code detected
-73: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ElementItemTypesWindow.cs(21,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-74: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(237,21): warning CS0162: Unreachable code detected
-75: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\GraphTreeWindow.cs(19,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-76: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityPlatform.cs(84,30): warning CS0168: The variable 'ex' is declared but never used
-77: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ElementDiagramSettingsWindow.cs(32,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-78: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ElementDiagramSettingsWindow.cs(128,29): warning CS0168: The variable 'ex' is declared but never used
-79: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\DocumentationWindow.cs(31,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-80: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\DocumentationWindow.cs(41,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
-81: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityDrawer.cs(431,17): warning CS0219: The variable 'labelWidth' is assigned but its value is never used
-82: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Scaffolding\ScaffoldGraph.cs(13,13): warning CS0612: 'InvertGraph.AddNode(IDiagramNode)' is obsolete
-83: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(1382,24): warning CS0649: Field 'uFrameHelp.disposer2' is never assigned to, and will always have its default value null
-84: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(1380,24): warning CS0649: Field 'uFrameHelp.disposer' is never assigned to, and will always have its default value null
-85: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\SmartWindow.cs(71,37): warning CS0067: The event 'SmartWindow.Bound' is never used
-86: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\TaskSystem.cs(9,21): warning CS0414: The field 'TaskSystem.fpsCount' is assigned but its value is never used
-87: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Database\Data\JsonFileRecordManager.cs(18,22): warning CS0414: The field 'JsonFileRecordManager._isCommiting' is assigned but its value is never used
-88: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Obsolete\ElementDiagramSettings.cs(113,22): warning CS0414: The field 'ElementDiagramSettings._generateDefaultBindings' is assigned but its value is never used
-89: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Obsolete\ElementDiagramSettings.cs(109,35): warning CS0414: The field 'ElementDiagramSettings._codePathStrategy' is assigned but its value is never used
-90: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Database\Data\FastJsonFileRecordManager.cs(18,22): warning CS0414: The field 'FastJsonFileRecordManager._isCommiting' is assigned but its value is never used
+68: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\GraphTreeWindow.cs(19,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+69: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityDrawer.cs(431,17): warning CS0219: The variable 'labelWidth' is assigned but its value is never used
+70: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Scaffolding\ScaffoldGraph.cs(13,13): warning CS0612: 'InvertGraph.AddNode(IDiagramNode)' is obsolete
+71: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Drawers\impl\GenericNodeDrawer.cs(48,18): warning CS0219: The variable 'hasErrors' is assigned but its value is never used
+72: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Drawers\impl\DiagramDrawer.cs(477,21): warning CS0162: Unreachable code detected
+73: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\ActionNode.cs(1214,13): warning CS0162: Unreachable code detected
+74: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\CollectionItemRemovedNode.cs(39,17): warning CS0162: Unreachable code detected
+75: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\CollectionItemRemovedNode.cs(49,17): warning CS0162: Unreachable code detected
+76: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\HandlerNode.cs(90,17): warning CS0162: Unreachable code detected
+77: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\LoopCollectionNode.cs(528,25): warning CS0219: The variable 'x' is assigned but its value is never used
+78: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\PropertyChangedNode.cs(106,17): warning CS0162: Unreachable code detected
+79: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\SetVariableNode.cs(100,17): warning CS0162: Unreachable code detected
+80: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\SequenceVisitor.cs(175,17): warning CS0219: The variable 'hasInferredOutput' is assigned but its value is never used
+81: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Plugins\ActionNodeSystem.cs(182,13): warning CS0162: Unreachable code detected
+82: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Plugins\uFrameECS.cs(982,29): warning CS0162: Unreachable code detected
+83: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(1380,24): warning CS0649: Field 'uFrameHelp.disposer' is never assigned to, and will always have its default value null
+84: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\SmartWindow.cs(71,37): warning CS0067: The event 'SmartWindow.Bound' is never used
+85: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(1382,24): warning CS0649: Field 'uFrameHelp.disposer2' is never assigned to, and will always have its default value null
+86: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Obsolete\ElementDiagramSettings.cs(109,35): warning CS0414: The field 'ElementDiagramSettings._codePathStrategy' is assigned but its value is never used
+87: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Database\Data\FastJsonFileRecordManager.cs(18,22): warning CS0414: The field 'FastJsonFileRecordManager._isCommiting' is assigned but its value is never used
+88: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Database\Data\JsonFileRecordManager.cs(18,22): warning CS0414: The field 'JsonFileRecordManager._isCommiting' is assigned but its value is never used
+89: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Obsolete\ElementDiagramSettings.cs(113,22): warning CS0414: The field 'ElementDiagramSettings._generateDefaultBindings' is assigned but its value is never used
+90: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\TaskSystem.cs(9,21): warning CS0414: The field 'TaskSystem.fpsCount' is assigned but its value is never used
 
 - PDB to MDB conversion --------------------------------------
 
 Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
 Arguments: Temp\Assembly-CSharp-Editor-firstpass.dll
 Exit code: 0
-Elapsed time: 0.58 sec
+Elapsed time: 0.66 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                     Friday, December 16, 2016 4:36:24 PM                     *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.8.1.0
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-f447383ddd09315469c967ca1af51887
-Exit code: 0
-Elapsed time: 2.32 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.38 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                     Friday, December 16, 2016 4:39:50 PM                     *
+*                     Friday, December 16, 2016 5:23:05 PM                     *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.8.1.0
 Platform: Windows
@@ -600,9 +461,30 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-943ad5dbeca3b1543b188da318cf9c9c
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-0e6a277e13c80f340970d24bbbf50758
+Exit code: 1
+Elapsed time: 1.91 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (1 line):
+0: Assets\Code\Handlers\InputSystemOnMouseDownHandler.cs(63,38): error CS1061: 'OrcClicked' does not contain a definition for 'OrcId' and no extension method 'OrcId' accepting a first argument of type 'OrcClicked' could be found (are you missing a using directive or an assembly reference?)
+********************************************************************************
+*                     Friday, December 16, 2016 5:23:47 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-aaf061561a984134b9f73480d65862fc
 Exit code: 0
-Elapsed time: 2.34 sec
+Elapsed time: 2.13 sec
 
 - Compiler output (0 lines):
 
@@ -613,11 +495,11 @@ Elapsed time: 2.34 sec
 Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
 Arguments: Temp\Assembly-CSharp.dll
 Exit code: 0
-Elapsed time: 0.36 sec
+Elapsed time: 0.33 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                     Friday, December 16, 2016 4:39:53 PM                     *
+*                     Friday, December 16, 2016 5:23:50 PM                     *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.8.1.0
 Platform: Windows
@@ -629,9 +511,9 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-d49c9ce00349f6242a04402b45af66ac
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-2b990d450b8c7d64d82a18d28a5af6e8
 Exit code: 0
-Elapsed time: 2.43 sec
+Elapsed time: 2.20 sec
 
 - Compiler output (0 lines):
 
@@ -646,7 +528,7 @@ Elapsed time: 0.37 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                     Friday, December 16, 2016 4:43:49 PM                     *
+*                     Friday, December 16, 2016 5:24:29 PM                     *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.8.1.0
 Platform: Windows
@@ -658,9 +540,139 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-a62b6f699087b594fa6ed1555656c6c4
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-bcb77b9f151a02a4898f90ca4770fc4b
+Exit code: 1
+Elapsed time: 1.32 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (1 line):
+0: Assets\Code\Handlers\DamageSystemOrcClickedHandler.cs(40,24): error CS0102: The type 'DamageSystemOrcClickedHandler' already contains a definition for 'ActionNode13_message'
+********************************************************************************
+*                     Friday, December 16, 2016 5:24:58 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-c030c9311ab17334188746b9edfe77c5
+Exit code: 1
+Elapsed time: 1.84 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (5 lines):
+0: Assets\Code\Handlers\InputSystemOnMouseDownHandler.cs(63,51): error CS0029: Cannot implicitly convert type 'uFrame.ECS.Components.Entity' to 'int'
+1: Assets\Code\Handlers\DamageSystemOrcClickedHandler.cs(67,13): error CS0103: The name 'ActionNode13_message' does not exist in the current context
+2: Assets\Code\Handlers\DamageSystemOrcClickedHandler.cs(71,56): error CS0103: The name 'ActionNode13_message' does not exist in the current context
+3: Assets\Code\Handlers\DamageSystemOrcClickedHandler.cs(72,13): error CS0103: The name 'ActionNode13_message' does not exist in the current context
+4: Assets\Code\Handlers\DamageSystemOrcClickedHandler.cs(76,56): error CS0103: The name 'ActionNode13_message' does not exist in the current context
+********************************************************************************
+*                     Friday, December 16, 2016 5:25:00 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-2b9cb5c750be9a748af2d6d0a9363b3e
+Exit code: 1
+Elapsed time: 1.49 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (1 line):
+0: Assets\Code\Handlers\DamageSystemOrcClickedHandler.cs(40,24): error CS0102: The type 'DamageSystemOrcClickedHandler' already contains a definition for 'ActionNode13_message'
+********************************************************************************
+*                     Friday, December 16, 2016 5:25:37 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-b979289bdac43e240bf1ad57a831831b
+Exit code: 1
+Elapsed time: 1.87 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (1 line):
+0: Assets\Code\Handlers\InputSystemOnMouseDownHandler.cs(63,51): error CS0029: Cannot implicitly convert type 'uFrame.ECS.Components.Entity' to 'int'
+********************************************************************************
+*                     Friday, December 16, 2016 5:26:51 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-b170aa626e4ecaf44a28beda041e3401
+Exit code: 1
+Elapsed time: 1.49 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (1 line):
+0: Assets\Code\Handlers\DamageSystemOrcClickedHandler.cs(40,24): error CS0102: The type 'DamageSystemOrcClickedHandler' already contains a definition for 'ActionNode13_message'
+********************************************************************************
+*                     Friday, December 16, 2016 5:26:53 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-557e59388796db340841d8086ff21076
+Exit code: 1
+Elapsed time: 1.44 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (1 line):
+0: Assets\Code\Handlers\DamageSystemOrcClickedHandler.cs(40,24): error CS0102: The type 'DamageSystemOrcClickedHandler' already contains a definition for 'ActionNode13_message'
+********************************************************************************
+*                     Friday, December 16, 2016 5:27:27 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-1507ffc0ff3fc6049a608baf5a37875b
 Exit code: 0
-Elapsed time: 2.46 sec
+Elapsed time: 3.01 sec
 
 - Compiler output (0 lines):
 
@@ -671,11 +683,204 @@ Elapsed time: 2.46 sec
 Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
 Arguments: Temp\Assembly-CSharp.dll
 Exit code: 0
-Elapsed time: 0.45 sec
+Elapsed time: 0.41 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                     Friday, December 16, 2016 4:43:52 PM                     *
+*                     Friday, December 16, 2016 5:27:27 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp-firstpass.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-68387bfb5e22f8e44affb3cd0da37874
+Exit code: 0
+Elapsed time: 3.76 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (15 lines):
+0: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\UnityAssets\Done\Done_Scripts\Done_GameController.cs(38,28): warning CS0618: 'Application.loadedLevel' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+1: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\UnityAssets\Done\Done_Scripts\Done_GameController.cs(38,5): warning CS0618: 'Application.LoadLevel(int)' is obsolete: 'Use SceneManager.LoadScene'
+2: Assets\Plugins\ManagedPackages\uFrame\ECS\Runtime\Systems\EcsComponentService.cs(207,46): warning CS0168: The variable 'ex' is declared but never used
+3: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\uFrameKernel.cs(195,17): warning CS0618: 'Application.LoadLevel(string)' is obsolete: 'Use SceneManager.LoadScene'
+4: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Groups\ShootingGunsGroup.cs(58,13): warning CS0162: Unreachable code detected
+5: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(91,22): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+6: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(135,34): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+7: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(238,18): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+8: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\SceneManagementService.cs(253,17): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+9: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\Scene.cs(58,24): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+10: Assets\Plugins\ManagedPackages\uFrame\Core\Kernel\Scene.cs(15,41): warning CS0649: Field 'Scene._KernelScene' is never assigned to, and will always have its default value null
+11: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Components\PlayGameButton.cs(28,30): warning CS0649: Field 'PlayGameButton._InstantiateItems' is never assigned to, and will always have its default value null
+12: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Components\SpawnMultipleAtInterval.cs(34,30): warning CS0649: Field 'SpawnMultipleAtInterval._Items' is never assigned to, and will always have its default value null
+13: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Components\Gunner.cs(28,23): warning CS0649: Field 'Gunner._Guns' is never assigned to, and will always have its default value null
+14: Assets\Plugins\ManagedPackages\uFrame\ECS\Example\Code\Handlers\BeginIntervalSpawnHandler.cs(33,47): warning CS0414: The field 'BeginIntervalSpawn.ActionNode11_DisposeWith' is assigned but its value is never used
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-firstpass.dll
+Exit code: 0
+Elapsed time: 0.55 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Friday, December 16, 2016 5:27:33 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-6e776660019637b4c985951d0fc34493
+Exit code: 0
+Elapsed time: 3.16 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.40 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Friday, December 16, 2016 5:27:33 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor-firstpass.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-c554b39f2d2d8bf48849bb857a4bfbb7
+Exit code: 0
+Elapsed time: 4.34 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (91 lines):
+0: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\KoinoniaSystem\Data\UFramePackageDescriptor.cs(8,18): warning CS0659: 'UFramePackageDescriptor' overrides Object.Equals(object o) but does not override Object.GetHashCode()
+1: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes.designer.cs(36,81): warning CS0108: 'CustomActionNodeBase.Outputs' hides inherited member 'GraphNode.Outputs'. Use the new keyword if hiding was intended.
+2: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes.designer.cs(43,80): warning CS0108: 'CustomActionNodeBase.Inputs' hides inherited member 'GraphNode.Inputs'. Use the new keyword if hiding was intended.
+3: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\ActionNode.cs(480,21): warning CS0114: 'ActionNode.WriteActionOutputs(TemplateContext)' hides inherited member 'SequenceItemNode.WriteActionOutputs(TemplateContext)'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+4: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\NavigationSystem\ScrollGraphCommand.cs(10,23): warning CS0108: 'ScrollGraphCommand.Title' hides inherited member 'Command.Title'. Use the new keyword if hiding was intended.
+5: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\CustomActionNode.cs(88,21): warning CS0114: 'CustomActionNode.IsAsync' hides inherited member 'SequenceItemNode.IsAsync'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+6: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\HandlerNode.cs(44,21): warning CS0114: 'HandlerNode.IsAsync' hides inherited member 'SequenceItemNode.IsAsync'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+7: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\QuickAccess\QuickAccessWindowPlugin.cs(65,32): warning CS0108: 'QuickAccessWindowPlugin.Container' hides inherited member 'CorePlugin.Container'. Use the new keyword if hiding was intended.
+8: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\ViewModels\DiagramViewModel.cs(882,21): warning CS0108: 'DiagramViewModel.PropertyChanged(IDataRecord, string, object, object)' hides inherited member 'ViewModel.PropertyChanged'. Use the new keyword if hiding was intended.
+9: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Templates\GroupItemTemplate.cs(13,20): warning CS0114: 'GroupItemTemplate.ComponentId' hides inherited member 'GroupItem.ComponentId'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+10: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\ViewModels\GraphItemViewModel.cs(116,29): warning CS0108: 'GraphItemViewModel.PropertyChanged(IDataRecord, string, object, object)' hides inherited member 'ViewModel.PropertyChanged'. Use the new keyword if hiding was intended.
+11: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\FilterNode.cs(33,29): warning CS0114: 'FilterNode.Filter' hides inherited member 'GraphNode.Filter'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+12: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\DebugSystem\uFrameBreakpointsWindow.cs(149,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+13: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\DebugSystem\uFrameBreakpointsWindow.cs(52,21): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+14: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\DatabaseService.cs(514,38): warning CS0168: The variable 'ex' is declared but never used
+15: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Core\InvertApplication.cs(175,34): warning CS0168: The variable 'ex' is declared but never used
+16: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Core\InvertApplication.cs(199,34): warning CS0168: The variable 'ex' is declared but never used
+17: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Core\InvertApplication.cs(224,34): warning CS0168: The variable 'ex' is declared but never used
+18: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Compiling\CodeGen\CodeTemplates\impl\TemplateClassGenerator.cs(220,13): warning CS0162: Unreachable code detected
+19: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphSystem.cs(40,17): warning CS0184: The given expression is never of the provided ('CreateGraphMenuCommand') type
+20: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Compiling\CodeGen\CodeTemplates\impl\GenerateMethod.cs(61,17): warning CS0219: The variable 'isOverried' is assigned but its value is never used
+21: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Compiling\CodeGen\CodeTemplates\impl\GenerateMember.cs(40,42): warning CS0168: The variable 'ex' is declared but never used
+22: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\uFrameNavigationHistoryWindow.cs(15,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+23: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Plugins\uFrameECS.cs(982,29): warning CS0162: Unreachable code detected
+24: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\uFrameIssuesWindow.cs(15,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+25: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameSettingsWindow.cs(20,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+26: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\uFrameInspectorWindow.cs(15,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+27: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\InspectorPlugin.cs(81,30): warning CS0168: The variable 'inspBounds' is declared but never used
+28: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(48,13): warning CS0162: Unreachable code detected
+29: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(125,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+30: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(148,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+31: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\InspectorPlugin.cs(325,21): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+32: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\InspectorWindow\InspectorPlugin.cs(341,21): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+33: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\KoinoniaSystem\PackageManagerUISystem.cs(109,13): warning CS0162: Unreachable code detected
+34: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\SelectionFor.cs(38,17): warning CS0162: Unreachable code detected
+35: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(317,21): warning CS0162: Unreachable code detected
+36: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\QuickAccess\QuickAccessWindowSearchPanel.cs(133,17): warning CS0219: The variable 'itemHeight' is assigned but its value is never used
+37: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Schemas\UnityConnectorStyleSchema.cs(35,13): warning CS0162: Unreachable code detected
+38: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\UndoSystem.cs(54,30): warning CS0168: The variable 'ex' is declared but never used
+39: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\UndoSystem.cs(144,30): warning CS0168: The variable 'ex' is declared but never used
+40: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(953,13): warning CS0162: Unreachable code detected
+41: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\InvertGraph.cs(508,35): warning CS0612: 'InvertGraph.Nodes' is obsolete
+42: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\InvertGraph.cs(513,21): warning CS0612: 'InvertGraph.Nodes' is obsolete
+43: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Plugins\ActionNodeSystem.cs(182,13): warning CS0162: Unreachable code detected
+44: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Graphs\Data\InvertGraph.cs(551,13): warning CS0162: Unreachable code detected
+45: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Platform\api\CachedStyles.cs(492,21): warning CS0162: Unreachable code detected
+46: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\WindowsPlugin.cs(51,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+47: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\WindowsPlugin.cs(62,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+48: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\Compatability\Data\UnityGraphData.cs(170,17): warning CS0162: Unreachable code detected
+49: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\ElementsDesigner.cs(17,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+50: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\WindowsPlugin.cs(103,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+51: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\ViewModels\DiagramViewModel.cs(500,30): warning CS0168: The variable 'ex' is declared but never used
+52: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\SelectedCodePreview.cs(26,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+53: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(204,21): warning CS0162: Unreachable code detected
+54: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(207,21): warning CS0162: Unreachable code detected
+55: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(210,21): warning CS0162: Unreachable code detected
+56: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(222,21): warning CS0162: Unreachable code detected
+57: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(225,21): warning CS0162: Unreachable code detected
+58: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityStyleProvider.cs(237,21): warning CS0162: Unreachable code detected
+59: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\MarketWindow.cs(23,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+60: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityPlatform.cs(84,30): warning CS0168: The variable 'ex' is declared but never used
+61: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\GraphTreeWindow.cs(19,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+62: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\MarketPlace.cs(275,30): warning CS0168: The variable 'ex' is declared but never used
+63: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ItemSelectionWindow.cs(16,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+64: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\SetVariableNode.cs(100,17): warning CS0162: Unreachable code detected
+65: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ItemSelectionWindow.cs(106,17): warning CS0219: The variable 'isFirst' is assigned but its value is never used
+66: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ImportTypeListWindow.cs(18,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+67: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ElementItemTypesWindow.cs(21,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+68: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ElementDiagramSettingsWindow.cs(32,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+69: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Scaffolding\ScaffoldGraph.cs(13,13): warning CS0612: 'InvertGraph.AddNode(IDiagramNode)' is obsolete
+70: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\ElementDiagramSettingsWindow.cs(128,29): warning CS0168: The variable 'ex' is declared but never used
+71: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\DocumentationWindow.cs(31,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+72: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\DocumentationWindow.cs(41,13): warning CS0618: 'EditorWindow.title' is obsolete: 'Use titleContent instead (it supports setting a title icon as well).'
+73: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\SequenceVisitor.cs(175,17): warning CS0219: The variable 'hasInferredOutput' is assigned but its value is never used
+74: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\UnityDrawer.cs(431,17): warning CS0219: The variable 'labelWidth' is assigned but its value is never used
+75: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\PropertyChangedNode.cs(106,17): warning CS0162: Unreachable code detected
+76: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Drawers\impl\GenericNodeDrawer.cs(48,18): warning CS0219: The variable 'hasErrors' is assigned but its value is never used
+77: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\LoopCollectionNode.cs(528,25): warning CS0219: The variable 'x' is assigned but its value is never used
+78: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Drawers\impl\DiagramDrawer.cs(477,21): warning CS0162: Unreachable code detected
+79: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\HandlerNode.cs(90,17): warning CS0162: Unreachable code detected
+80: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\ActionNode.cs(1214,13): warning CS0162: Unreachable code detected
+81: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\CollectionItemRemovedNode.cs(39,17): warning CS0162: Unreachable code detected
+82: Assets\Plugins\ManagedPackages\uFrame\ECS\Designer\Editor\Nodes\CollectionItemRemovedNode.cs(49,17): warning CS0162: Unreachable code detected
+83: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(1382,24): warning CS0649: Field 'uFrameHelp.disposer2' is never assigned to, and will always have its default value null
+84: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\uFrameHelp.cs(1380,24): warning CS0649: Field 'uFrameHelp.disposer' is never assigned to, and will always have its default value null
+85: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\WindowsPlugin\SmartWindow.cs(71,37): warning CS0067: The event 'SmartWindow.Bound' is never used
+86: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Obsolete\ElementDiagramSettings.cs(109,35): warning CS0414: The field 'ElementDiagramSettings._codePathStrategy' is assigned but its value is never used
+87: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\GraphUI\Obsolete\ElementDiagramSettings.cs(113,22): warning CS0414: The field 'ElementDiagramSettings._generateDefaultBindings' is assigned but its value is never used
+88: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Database\Data\FastJsonFileRecordManager.cs(18,22): warning CS0414: The field 'FastJsonFileRecordManager._isCommiting' is assigned but its value is never used
+89: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Database\Data\JsonFileRecordManager.cs(18,22): warning CS0414: The field 'JsonFileRecordManager._isCommiting' is assigned but its value is never used
+90: Assets\Plugins\ManagedPackages\uFrame\Core\Editor\Systems\Unity\TaskSystem.cs(9,21): warning CS0414: The field 'TaskSystem.fpsCount' is assigned but its value is never used
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor-firstpass.dll
+Exit code: 0
+Elapsed time: 0.65 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Friday, December 16, 2016 5:27:39 PM                     *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.8.1.0
 Platform: Windows
@@ -687,9 +892,9 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-a42148ecc7e550a48ac462860b145386
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-15aaf50e73c6c5a48869075a022da730
 Exit code: 0
-Elapsed time: 2.45 sec
+Elapsed time: 2.84 sec
 
 - Compiler output (0 lines):
 
@@ -700,6 +905,222 @@ Elapsed time: 2.45 sec
 Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
 Arguments: Temp\Assembly-CSharp-Editor.dll
 Exit code: 0
-Elapsed time: 0.34 sec
+Elapsed time: 0.42 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Friday, December 16, 2016 5:27:53 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-8f7f82285ddaa1545b85960835f4bba8
+Exit code: 0
+Elapsed time: 2.44 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.39 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Friday, December 16, 2016 5:27:56 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-2d8d9fec57896fc4a8a8b58594d0d403
+Exit code: 0
+Elapsed time: 2.62 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.43 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Friday, December 16, 2016 5:29:26 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-acca48fd5e075624eba3feeebc3a0538
+Exit code: 0
+Elapsed time: 2.38 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.40 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Friday, December 16, 2016 5:29:29 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-bd408b6df7aaac0449e4526c2e615b91
+Exit code: 0
+Elapsed time: 2.67 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.40 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Friday, December 16, 2016 5:30:32 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-6993207b97dead545b2f7a410b7a3d3a
+Exit code: 1
+Elapsed time: 1.92 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (1 line):
+0: Assets\Code\Handlers\InputSystemOnMouseDownHandler.cs(63,51): error CS0029: Cannot implicitly convert type 'uFrame.ECS.Components.Entity' to 'int'
+********************************************************************************
+*                     Friday, December 16, 2016 5:31:41 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-ac28a8dfb42ea85408d929b88fef4523
+Exit code: 1
+Elapsed time: 2.01 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (1 line):
+0: Assets\Code\Handlers\InputSystemOnMouseDownHandler.cs(63,51): error CS0029: Cannot implicitly convert type 'uFrame.ECS.Components.Entity' to 'int'
+********************************************************************************
+*                     Friday, December 16, 2016 5:34:25 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-26452898c2b44b1468fdeae908d8903a
+Exit code: 0
+Elapsed time: 2.44 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.39 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Friday, December 16, 2016 5:34:28 PM                     *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.8.1.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: D:\Data\Uni\IMP\imp2016-neu-wirklich
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-340b2c055a0953a4e8b2807bdddd8dfb
+Exit code: 0
+Elapsed time: 2.68 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: D:\Data\Uni\IMP\imp2016-neu-wirklich\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.40 sec
 
 - pdb2mdb.exe output (0 lines):

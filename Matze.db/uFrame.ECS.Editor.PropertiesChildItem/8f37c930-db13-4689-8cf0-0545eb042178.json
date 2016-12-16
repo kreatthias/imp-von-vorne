@@ -1,7 +1,7 @@
 {
 	"FriendlyName":"OrcId"	, 
-	"RelatedType":""	, 
+	"RelatedType":"Entity"	, 
 	"Identifier":"8f37c930-db13-4689-8cf0-0545eb042178"	, 
 	"NodeId":"56aadc3f-034d-40cf-ab09-480eddf61ccd"	, 
 	"Order":0	, 
-	"Name":"OrcId"}
+	"Name":"clickedOrc"}

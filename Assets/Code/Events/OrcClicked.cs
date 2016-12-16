@@ -15,6 +15,7 @@ namespace Matze {
     using System.Collections.Generic;
     using System.Linq;
     using uFrame.ECS;
+    using uFrame.ECS.Components;
     using UniRx;
     
     
@@ -22,14 +23,14 @@ namespace Matze {
     public partial class OrcClicked : object {
         
         [UnityEngine.SerializeField()]
-        private Int32 _OrcId;
+        private Int32 _clickedOrc;
         
-        public Int32 OrcId {
+        public Int32 clickedOrc {
             get {
-                return _OrcId;
+                return _clickedOrc;
             }
             set {
-                _OrcId = value;
+                _clickedOrc = value;
             }
         }
     }

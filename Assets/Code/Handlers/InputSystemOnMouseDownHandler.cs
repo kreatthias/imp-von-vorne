@@ -31,7 +31,7 @@ namespace Matze {
         
         private string StringNode11 = "orc clicked";
         
-        private Matze.OrcClicked PublishEventNode19_Result = default( Matze.OrcClicked );
+        private Matze.OrcClicked PublishEventNode18_Result = default( Matze.OrcClicked );
         
         public uFrame.ECS.UnityUtilities.MouseDownDispatcher Event {
             get {
@@ -58,11 +58,11 @@ namespace Matze {
             // Visit uFrame.ECS.Actions.DebugLibrary.LogMessage
             uFrame.ECS.Actions.DebugLibrary.LogMessage(ActionNode10_message);
             // PublishEventNode
-            while (this.DebugInfo("85661589-9238-40f7-b8a3-8df48ab0a5d2","e7435b70-65ac-4a3c-a72d-ec3428824984", this) == 1) yield return null;
-            var PublishEventNode19_Event = new OrcClicked();
-            PublishEventNode19_Event.OrcId = Source.EntityId;
-            System.Publish(PublishEventNode19_Event);
-            PublishEventNode19_Result = PublishEventNode19_Event;
+            while (this.DebugInfo("85661589-9238-40f7-b8a3-8df48ab0a5d2","d2545072-59e1-4a15-8a17-e19c6c7464e0", this) == 1) yield return null;
+            var PublishEventNode18_Event = new OrcClicked();
+            PublishEventNode18_Event.clickedOrc = Source.EntityId;
+            System.Publish(PublishEventNode18_Event);
+            PublishEventNode18_Result = PublishEventNode18_Event;
             yield break;
         }
     }
